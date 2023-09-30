@@ -1,11 +1,23 @@
 .navbar {
-  margin-top: 1em;
+  position: fixed;
+  top: 0;
+  right: 0;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 10px;
 
   div {
     margin: auto;
   }
+}
+.button{
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.logo {
+  height: 80px;
 }
 
