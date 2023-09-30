@@ -1,5 +1,11 @@
 .navbar {
+  margin-top: 1em;
   display: flex;
   width: 100%;
   justify-content: space-between;
+
+  div {
+    margin: auto;
+  }
 }
+
