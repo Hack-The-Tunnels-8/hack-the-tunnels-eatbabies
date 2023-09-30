@@ -27,6 +27,7 @@ export const create = async (
   description: string,
   price: number,
   imageUrl: string = "https://i.imgur.com/EyoQOjC.jpg",
+  deleted: boolean = false,
 ): Promise<Product> => {
   const newProduct = await prisma.product.create({
     data: {
@@ -34,6 +35,7 @@ export const create = async (
       description: description,
       price: price,
       imageUrl: imageUrl,
+      deleted: deleted
     },
   });
 
