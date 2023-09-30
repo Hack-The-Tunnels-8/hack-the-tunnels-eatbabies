@@ -9,4 +9,13 @@
   padding-right: 3em;
   padding-bottom: 3em;
   padding-left: 3em;
+  height: 2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer.adaptive {
+    background: white;
+    color: black;
+    outline: 5px dashed #000;
+  }
 }

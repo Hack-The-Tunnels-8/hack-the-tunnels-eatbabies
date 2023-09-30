@@ -4,14 +4,23 @@
   margin-left: 2em;
 
   &__title {
+<<<<<<< HEAD
     color: #6C5B7B;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+=======
+    color: #cc241d;
+    font-family: cursive;
+  }
+
+  &__subTitle {
+    color: #35287D;
+    font-family: system-ui;
+>>>>>>> 4d5f9298820d1c4051edf3d001e49bd122068c6d
   }
 
   &__products {
     display: flex;
     flex-direction: column;
-
     a {
       text-decoration: none;
       color: #6C5B7B;
