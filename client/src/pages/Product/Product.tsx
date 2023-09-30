@@ -25,7 +25,7 @@ function Product() {
 
   return (
     <Page>
-      <div className="product-page">
+      <div className="product-page flex-container">
         {message && <p>{message}</p>}
         {product && (
           <>
